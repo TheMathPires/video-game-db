@@ -11,6 +11,8 @@ export interface Game {
   ratings: Array<Rating>;
   screenshots: Array<Screenshots>;
   trailers: Array<Trailer>;
+  id: string;
+  metacritic: number;
 }
 
 export interface APIResponse<T> {

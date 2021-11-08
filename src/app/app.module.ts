@@ -11,15 +11,20 @@ import { GaugeModule } from 'angular-gauge';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
+import { MatIconModule } from '@angular/material/icon';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { HomeComponent } from './components/home/home.component';
 import { HttpHeadersInterceptors } from './interceptors/http-headers.interceptors';
+import { DetailsComponent } from './components/details/details.component';
+import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent,
+    GameTabsComponent
   ],
   imports: [
     BrowserModule,
@@ -30,19 +35,15 @@ import { HttpHeadersInterceptors } from './interceptors/http-headers.interceptor
     GaugeModule.forRoot(),
     MatTabsModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatIconModule,
   ],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
       useClass: HttpHeadersInterceptors,
       multi: true,
-    },
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: HttpHeadersInterceptors,
-      multi: true,
-    },
+    }
   ],
   bootstrap: [AppComponent]
 })
