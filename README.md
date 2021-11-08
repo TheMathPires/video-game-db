@@ -1,27 +1,74 @@
-# NgVideoGameDb
+## Lyric Search App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+[![LinkedIn-Designer][linkedin-shield]][linkedin-url-1]
 
-## Development server
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Toshiuk/bips-front">
+    <img height="auto" width="100%' align="center" src="./src/assets/images/app.gif" />
+   </a>
+   <br/>
+   <br/>
+  <em align="center">
+      Amazing libary with more than 500,000 games!
+    <br />
+    <br />
+    <a href="#" target="_blank">View Demo</a>
+  </p>
+</em>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<!-- TABLE OF CONTENTS -->
 
-## Code scaffolding
+## Table of Contents
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Running](#running)
 
-## Build
+<!-- ABOUT THE PROJECT -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## About The Project
+Application that queries the RAWG Video Games API, returning all your favorite games. 
 
-## Running unit tests
+### Built With
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Angular](https://angular.io/)
+- [Material Design](https://material.io/design)
 
-## Running end-to-end tests
+<!-- GETTING STARTED -->
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
+## Getting Started
 
-## Further help
+### Prerequisites
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- node
+- npm
+- yarn
+
+### Running
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/TheMathPires/video-game-db.git
+```
+
+2. Install NPM packages
+
+```sh
+npm install
+```
+
+3. Run development mode
+
+```sh
+npm start
+```
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url-1]: https://www.linkedin.com/in/themathpires/
