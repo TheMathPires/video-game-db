@@ -1,4 +1,4 @@
-## Lyric Search App
+## Video Game Database
 
 [![LinkedIn-Designer][linkedin-shield]][linkedin-url-1]
 
